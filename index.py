@@ -14,8 +14,7 @@ for guess_num in range(num_guesses):
     # check if the guess is correct
     if guess == secret_number:
         print("Congratulations, you guessed it!")
-        break
-    else:
+     
         # if the guess is incorrect, let the user know
         print("Sorry, that's not it.")
         # let the user know how many guesses are left
